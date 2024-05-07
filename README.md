@@ -4,7 +4,7 @@ Implementation of TorSeq by Xiangyang Xu, Meng Liu, and Hongyang Gao
 If you have any question, please open issue or send us email at xyxu@iastate.edu
 
 ## Enviornment
-Create a new conda enviornment and install pytorch and pyg
+Create a new conda enviornment and install pytorch and pyg; if there are any problems, you can check the package we used from package.txt. The GPU we use is 2080Ti.
 
     pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
     pip install torch_geometric
