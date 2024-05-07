@@ -19,7 +19,7 @@ We use the same dataset and split as Torsional Diffusion (Jing et al), you can d
 Also, we provide checkpoints and sampled molecular conformers pickle [here](https://drive.google.com/drive/folders/14z7b4-TzAinVt2rjDlA2flX70Qmt7pbi?usp=drive_link).
 
 ## Training
-    python train_main.py --mpnn_conv --no_random_start --no_local_feature
+    python train_main.py --mpnn_conv --no_local_feature --use_motif_gcn
 
 ## Sampling
     python sampling_torseq.py --no_local_feature --use_motif_gcn
