@@ -1,0 +1,16 @@
+## ignore folder
+data/
+processed/
+__pycache__/
+weighted_model/
+log/
+new-log/ 
+sampled_pickle/
+tdiff+lstm/
+runtime/
+/xTB_pickle
+## ignore file type
+*.pdb
+*.zip
+*.npy
+#*.txt
