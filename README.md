@@ -23,7 +23,9 @@ Also, we provide checkpoints and sampled molecular conformers pickle [here](http
 
 ## Sampling
     python sampling_torseq.py --no_local_feature --use_motif_gcn
+    python sampling_torseq_and_tordiff.py --use_second_order_repr
 
 ## Testing
     python test.py --save TorSeq
+    python test.py --save TorSeq+TorDiff 
 
