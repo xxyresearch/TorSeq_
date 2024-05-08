@@ -16,13 +16,13 @@ from model.score_model import TensorProductScoreModel
 
 args = parse_train_args()
 
-model_name = '2irrep-reslstm-200'
+model_name = 'TorSeq+TorDiff'
 path = './weighted_model/'
 save_name = './sampled_pickle/' + model_name  +'.pkl'
 csv_dir = './data/DRUGS/test_smiles.csv'
 pickle_dir = './data/DRUGS/test_mols.pkl'
 
-weighted_model = './data/workdir/drugs_default/best_model.pt'
+weighted_model = 'weighted_model/TorSeq+TorDiff.pth'
 
 inference_steps = 20
 
